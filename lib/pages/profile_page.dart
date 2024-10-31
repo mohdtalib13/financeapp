@@ -13,6 +13,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey.shade300,
       body: Column(
+
         children: [
           Container(
             margin: const EdgeInsets.fromLTRB(28, 40, 28, 28),
