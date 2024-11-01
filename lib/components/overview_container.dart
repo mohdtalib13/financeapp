@@ -49,11 +49,11 @@ class OverviewContainer extends StatelessWidget {
                       Text(
                         title,
                         style: const TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.w500),
+                            fontSize: 18, fontWeight: FontWeight.w500),
                       ),
                       Text(
                         subtitle,
-                        style: const TextStyle(fontSize: 10),
+                        style: const TextStyle(fontSize: 12),
                       ),
                     ],
                   ),
@@ -61,7 +61,7 @@ class OverviewContainer extends StatelessWidget {
               ),
               Text(
                 text,
-                style: const TextStyle(fontWeight: FontWeight.bold),
+                style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
             ],
           ),

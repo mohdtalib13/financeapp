@@ -13,7 +13,6 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey.shade300,
       body: Column(
-
         children: [
           Container(
             margin: const EdgeInsets.fromLTRB(28, 40, 28, 28),
@@ -56,8 +55,8 @@ class ProfilePage extends StatelessWidget {
                     ),
                     Text(
                       "UI/UX Designer",
-                      style: TextStyle(
-                          fontSize: 12, fontWeight: FontWeight.w500),
+                      style:
+                          TextStyle(fontSize: 12, fontWeight: FontWeight.w500),
                     ),
                   ],
                 ),
@@ -69,8 +68,8 @@ class ProfilePage extends StatelessWidget {
                       children: [
                         Text(
                           "\$8900",
-                          style: TextStyle(
-                              fontSize: 18, color: Colors.deepPurple),
+                          style:
+                              TextStyle(fontSize: 18, color: Colors.deepPurple),
                         ),
                         Text(
                           "Income",
@@ -83,8 +82,8 @@ class ProfilePage extends StatelessWidget {
                       children: [
                         Text(
                           "\$5900",
-                          style: TextStyle(
-                              fontSize: 18, color: Colors.deepPurple),
+                          style:
+                              TextStyle(fontSize: 18, color: Colors.deepPurple),
                         ),
                         Text(
                           "Expenses",
@@ -97,8 +96,8 @@ class ProfilePage extends StatelessWidget {
                       children: [
                         Text(
                           "\$890",
-                          style: TextStyle(
-                              fontSize: 18, color: Colors.deepPurple),
+                          style:
+                              TextStyle(fontSize: 18, color: Colors.deepPurple),
                         ),
                         Text(
                           "Loan",

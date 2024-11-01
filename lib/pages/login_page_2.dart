@@ -28,7 +28,7 @@ class LoginPage2 extends StatelessWidget {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                  padding: const EdgeInsets.fromLTRB(28, 0, 28, 0),
                   child: TextField(
                     enableSuggestions: false,
                     autocorrect: false,
@@ -45,7 +45,7 @@ class LoginPage2 extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                  padding: const EdgeInsets.fromLTRB(28, 0, 28, 0),
                   child: TextField(
                     obscureText: true,
                     enableSuggestions: false,
@@ -62,7 +62,7 @@ class LoginPage2 extends StatelessWidget {
                 ),
                 const SizedBox(height: 20),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+                  padding: const EdgeInsets.fromLTRB(28, 0, 28, 0),
                   child: TextButton(
                     onPressed: () =>
                         Navigator.pushNamed(context, '/profile_page'),
@@ -80,7 +80,7 @@ class LoginPage2 extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 20, 16, 0),
+                  padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 20),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
